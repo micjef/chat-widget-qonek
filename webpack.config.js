@@ -9,6 +9,8 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: __dirname + '/dist',
+    library: 'initChatWidget', // Expose as a global variable
+    libraryTarget: 'window',
   },
   optimization: {
     minimize: true,
