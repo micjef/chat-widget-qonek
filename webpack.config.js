@@ -1,5 +1,6 @@
 const TerserPlugin = require('terser-webpack-plugin');
 const JavaScriptObfuscator = require('webpack-obfuscator');
+const Dotenv = require('dotenv-webpack');
 
 
 module.exports = {
@@ -14,6 +15,7 @@ module.exports = {
     minimizer: [new TerserPlugin()],
   },
   plugins: [
+    new Dotenv(),
     new JavaScriptObfuscator({
       rotateStringArray: true,
     }),
