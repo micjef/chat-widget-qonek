@@ -22,4 +22,11 @@ module.exports = {
       rotateStringArray: true,
     }),
   ],
+  resolve: {
+    fallback: {
+      "path": false,
+      "os": false,
+      "crypto": false
+    }
+  }
 };
