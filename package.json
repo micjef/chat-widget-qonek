@@ -13,13 +13,16 @@
     "dotenv": "^16.4.5"
   },
   "name": "chat-widget-qonek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "<img src=\"https://user-images.githubusercontent.com/1721988/234579578-398aab55-9336-4a20-aa62-319cf1bf4a99.png\" height=\"80\" width=\"auto\">",
   "main": "chat-widget.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["dist", "bundle.js"],
+  "files": [
+    "dist",
+    "bundle.js"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC"
